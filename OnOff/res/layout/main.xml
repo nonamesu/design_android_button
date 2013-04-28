@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/back"
+    >
+
+    <com.appipv.onoff.SlipButton
+        android:id="@+id/slipButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp" />
+
+ <com.appipv.onoff.SlipButton
+     android:id="@+id/slipButton2"
+     android:layout_width="wrap_content"
+     android:layout_height="57dp" />
+
+ <com.appipv.onoff.SwitchButton
+     android:id="@+id/slipButton2"
+     android:layout_width="wrap_content"
+     android:layout_height="57dp" />
+
+ <com.appipv.onoff.SwitchButton
+     android:id="@+id/switchButton1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content" 
+     android:background="@android:color/white"
+     />
+ 
+</LinearLayout>
